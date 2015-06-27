@@ -18,7 +18,8 @@
 		"node": ">=0.3.0"
 	},
 	"scripts": {
-		"test": "node test.js"
+		"test": "node test.js",
+		"postinstall": "HOME=~/.electron-gyp node-gyp rebuild -d"
 	},
 	"license": "ISC",
 	"readmeFilename": "README.md"
