@@ -18,8 +18,7 @@
 		"node": ">=0.3.0"
 	},
 	"scripts": {
-		"test": "node test.js",
-		"preinstall": "node-gyp rebuild -d"
+		"test": "node test.js"
 	},
 	"license": "ISC",
 	"readmeFilename": "README.md"
