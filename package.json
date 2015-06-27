@@ -19,7 +19,7 @@
 	},
 	"scripts": {
 		"test": "node test.js",
-		"preinstall": "HOME=~/.electron-gyp node-gyp rebuild -r --target=0.28.2 --arch=ia64 --dist-url=https://atom.io/download/atom-shell"
+		"preinstall": "node-gyp rebuild -d"
 	},
 	"license": "ISC",
 	"readmeFilename": "README.md"
